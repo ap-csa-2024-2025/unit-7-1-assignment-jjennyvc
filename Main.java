@@ -29,6 +29,13 @@ public class Main
     words.set(lastIndex, firstWord);
     System.out.println("Added the first word to the last word. ArrayList is now " + words);
   }
+    if (words.length < 2)
+    {
+    int firstWord = words.get(0);
+    words.remove(firstWord);
+    System.out.println("If the length less than 2, remove first word. ArrayList is now " + words);
+
+    }
 
 
 }
